@@ -1,4 +1,4 @@
-# Socrata-Github-Smart-City-Application
+# Socrata-Github-AHP tool to prioritize the publication of open data 4 indicators
 The Application is divided in the next subfolders (read the README.md for the details of everyone):
 - db (contains the database shared by all the processes of this application)
 - Socrata Dataset Gatherer
@@ -13,5 +13,5 @@ Then, is it possible to concurrently do the steps included in the Semi-automated
 
 Then, the combined result of the aforementioned process are used in the Indicators calculation process.
 
-Finally, in AHP, the specific application of the POP Framework to Smart Cities using the indicators calculated in the previous process is developed.
+Finally, it is possible to create a Spreadsheet based on AHP that uses the indicators calculated in the previous process.
 
