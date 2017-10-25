@@ -5,14 +5,14 @@
 - A table called socrata_customers, which stores data about the organizations using Socrata Open Data technology, with the next characteristics:
         - "id_customer" INTEGER PRIMARY KEY NOT NULL
 	- "customer_name" TEXT
-        - "type" TEXT
-        - "location_name" TEXT DEFAULT (null) 
-        - "country" TEXT
-        - "open_data_site_url" TEXT,
-        - "api_dcat_url" TEXT,
-        - "api_data_url" TEXT,
-        - "longitude" TEXT,
-        - "latitude" TEXT
+	- "type" TEXT
+	- "location_name" TEXT DEFAULT (null)
+	- "country" TEXT
+	- "open_data_site_url" TEXT
+	- "api_dcat_url" TEXT
+	- "api_data_url" TEXT
+	- "longitude" TEXT
+	- "latitude" TEXT
 - A table called socrata_data, which stores the info of every dataset contained in the data.json of socrata portals, with the next characteristics:
         - "identifier" TEXT NOT NULL
         - "api_url" TEXT
