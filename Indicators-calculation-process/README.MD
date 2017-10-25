@@ -15,6 +15,5 @@ Execute the script create_views_for_calculating_indicators.py for creating usefu
 ---
 
 - A view called categories_contributors, which shows, for every category, the sum of total_contributors of the distinct repositories referencing every category. 
-- A view called categories_contributions, which shows, for every category, the sum of total_contributions of the distinct repositories referencing every category. 
 - A view called categories_subscribers, which shows, for every category, the sum of subscribers_count of the distinct repositories referencing every category.
 - A view called categories_madurity_total, which shows, for every category, the total maturity of the distinct repositories referencing every category. Maturity is computed using 2 lifetimes, project lifetime (PL) and last update lifetime (LUL) and the formula is: PL/LUL. Thus, maturity projects will be those ones with elderly PL ann a low LUL. 
