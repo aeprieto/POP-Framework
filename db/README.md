@@ -2,9 +2,9 @@
  This database is the result of carrying out, in the correct order, the different processes and executing the scripts of the Socrata Github Smart City Application.
  Thus, the database contains the next elements:
  
- - A table called socrata_customers, which stores data about the organizations using Socrata Open Data technology, with the next characteristics:
-  - "id_customer" INTEGER PRIMARY KEY NOT NULL
-  - "customer_name" TEXT
+	- A table called socrata_customers, which stores data about the organizations using Socrata Open Data technology, with the next characteristics:
+		- "id_customer" INTEGER PRIMARY KEY NOT NULL
+		- "customer_name" TEXT
   - "type" TEXT
   - "location_name" TEXT DEFAULT (null) 
   - "country" TEXT
