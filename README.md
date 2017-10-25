@@ -1,4 +1,4 @@
-# Socrata-Github-AHP tool to prioritize the publication of open data 4 indicators
+# Socrata-Github-AHP tool to prioritize the publication of open data 
 The Application is divided in the next subfolders (read the README.md for the details of everyone):
 - db (contains the database shared by all the processes of this application)
 - Socrata Dataset Gatherer
