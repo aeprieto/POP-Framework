@@ -1,7 +1,6 @@
 This is a semi-automated process that must be carried out by experts.
 Concretely, the experts have the table usa_city_datasets_categorized of the OpenDataCatalogs.sqlite database which consists of the identifier, theme, keyword, title and description of  the datasets of Usa cities that, at least, havea a theme or a keyword.
-The table also has the category field, initially as null, which is the one that must be filled in by the experts according to the categories established for the specific application of the POP Framework. 
-For this specific application to Smart Cities, the proposed categories and example datasets of every one are:
+The table also has the category field, initially as null, which is the one that must be filled in by the experts according to the categories established for Smart Cities. The proposed categories and example datasets of every one are:
 
 - Administration & Finance
   - Audits and Reports,City Finance and Budget, City Government, Fees, Liabilities and Assets, Purchasing, Revenue
